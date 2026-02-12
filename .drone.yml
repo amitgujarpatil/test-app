@@ -16,6 +16,6 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
-      repo: yourdockerhubusername/demo-app
+      repo: vaishanvi1234/demo-app-29
       tags:
         - latest
