@@ -4,7 +4,8 @@ name: default
 
 steps:
 - name: test
-  image: alpine
+  image: alpine:3.18
   commands:
-  - echo "Hello from Drone"
+  - echo "hello from drone"
+  - uname -m
   - sleep 5
